@@ -24,7 +24,7 @@ recommends: [SQLite install instructions @ tutorialspoint.com](http://www.tutori
 Call the script passing in a directory to watch, a filetype to watch, and the connection details for the remote server.
 
 ```bash
-ruby lib/watch.rb /dir/to/watch mp3 user@sftp-locale.com:~/path/
+ruby lib/watch.rb /dir/to/watch user@sftp-locale.com:~/path/
 ```
 
 ## Logs
@@ -43,3 +43,10 @@ ruby lib/history.rb
 - Uploads a file that hasn't been changed in 5 minutes
 - Uploads a custom XML file once the watched file is complete
 - Stores data regarding upload history in a database 
+- Watches MP3 files only (will likely change)
+
+Broken down into 3 stages:
+
+1 Listen for files that meet requirements
+2 Log file details into database (including job number), connect and transfer file over SFTP, generate custom XML, upload custom XML, log in database
+3 whatever stage 3 is
