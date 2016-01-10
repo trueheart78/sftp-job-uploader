@@ -47,6 +47,6 @@ ruby lib/history.rb
 
 Broken down into 3 stages:
 
-1 Listen for files that meet requirements
-2 Log file details into database (including job number), connect and transfer file over SFTP, generate custom XML, upload custom XML, log in database
-3 whatever stage 3 is
+1. Listen for files that meet requirements
+2. Log file details into database (including job number), connect and transfer file over SFTP, generate custom XML, upload custom XML, log in database
+3. whatever stage 3 is
