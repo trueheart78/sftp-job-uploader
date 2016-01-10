@@ -8,9 +8,16 @@ Please run `gem install bundler`, followed by `bundle install`
 
 ### SQLite
 
+You will need to make sure that SQLite is installed on your system.
+Generally, there are a couple simple commands that can be performed,
+depending on your system.
+
 OS X: `brew install sqlite`
 
 Ubuntu: `sudo apt-get install sqlite`
+
+If neither of these work, please try something like this tutorial
+recommends: [SQLite install instructions @ tutorialspoint.com](http://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
 
 ## Usage
 
